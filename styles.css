@@ -1,0 +1,253 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #265;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: #111;
+    border-radius: 5px;
+  }
+  
+  nav .active {
+    background-color: #04AA6D;
+    border-radius: 5px;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  #home h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  #home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  #about video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Work Section */
+  #work {
+    background-color: #fafafa;
+    padding: 50px 20px;
+  }
+  
+  #work h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  #work ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  #work li {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  #work li:hover {
+    transform: translateY(-10px);
+  }
+  
+  #work h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  #work p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  #work a {
+    color: #04AA6D;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  #work a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #03a05c;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #265;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #04AA6D;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
